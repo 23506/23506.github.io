@@ -44,12 +44,7 @@ h3 {
     text-align: center;
 }
 
-footer { 
-    background-color: black;
-    color: white;
-    width: 100%;
-    margin-top: 0;
-}
+
 
 #navbar {
     color: white;
@@ -132,6 +127,7 @@ knopBoven.active {
 
 .image {
     width: 100%;
+    box-shadow: -2px 2px red;
 }
 
 @media screen and(min-width: 768px){
@@ -249,10 +245,11 @@ section{
 #footer {
     background-color: #252a30;
     font-size: 90%;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center;
     
+}
+#footer .close{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #footer a {
     text-decoration: none;
@@ -260,8 +257,10 @@ section{
 }
 
 #footer a:hover {
-    color: blue;
+    color:red;
 }
+
+
 
 
 #footer p {
@@ -376,9 +375,39 @@ background-color: white;
     color: #fed766;
 }
 
-#borderProject {
-    border-bottom: 2px solid red;
-    border-left: 2px solid red;
+  #borderProject {
+      text-align: center;
+  }
+#contactButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+}
+#contactButton:hover {
+    color:#fed766;
 }
 
-  
+#cvButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+}
+
+#cvButton:hover {
+    color:#fed766;
+}
+#contentContact {
+    display: inline-block;
+}
